@@ -15,10 +15,20 @@ For simplicity, bonus numbers are not used.
 - javac .\fi\tuni\tamk\tiko\malmbergtapio\\*.java
 - java fi/tuni/tamk/tiko/malmbergtapio/LottoApp
 
+# Command line parameters
+
+The lottery numbers can be given as command line parameters:
+
+``java fi/tuni/tamk/tiko/malmbergtapio/LottoApp 2 4 6 8 10 12 14``
+
 # Different types of lotteries
 
 The program reads the types of lotteries available from the file LottoSettings.txt.
 
 The file format is:
 
-`lottery name;largest number;how many numbers are drawn` 
+``lottery name;largest number;how many numbers are drawn``
+
+# TODO
+
+- Command line parameter for selecting the lottery type
