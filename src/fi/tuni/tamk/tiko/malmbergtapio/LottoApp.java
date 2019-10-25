@@ -206,7 +206,7 @@ public class LottoApp {
 
             weeks++;
 
-            // Get the amount of numbers the were correct
+            // Get the amount of numbers that were correct
             correct = Arrays.countSameValues(lottoNumbers, userNumbers);
 
             if(infoAmount == InfoAmount.EVERYWEEK) {
