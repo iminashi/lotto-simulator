@@ -1,6 +1,5 @@
 package fi.tuni.tamk.tiko.malmbergtapio;
 
-import java.nio.*;
 import java.nio.file.*;
 import java.util.List;
 import java.nio.charset.*;

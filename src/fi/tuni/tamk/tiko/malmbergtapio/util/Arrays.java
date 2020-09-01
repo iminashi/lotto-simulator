@@ -74,8 +74,6 @@ public class Arrays {
         int sameValuesCount = 0;
 
         for (int i = 0; i < array1.length; i++) {
-            int val1 = array1[i];
-
             if (contains(array1[i], array2)) {
                 sameValuesCount++;
             }
